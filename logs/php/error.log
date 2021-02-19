@@ -1,0 +1,684 @@
+[19-Feb-2021 19:06:04 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:06:04 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:06:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:06:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:06:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:06:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:06:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:06:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:06:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:06:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:06:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:06:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:06:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:06:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:06:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:06:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:06:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:06:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:06:05 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:06:05 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:06:05 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:06:05 UTC] PHP   9. wp_not_installed() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:159
+[19-Feb-2021 19:06:05 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:06:05 UTC] PHP  10. is_blog_installed() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:709
+[19-Feb-2021 19:06:05 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:06:05 UTC] PHP  11. wpdb->get_var() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\functions.php:1727
+[19-Feb-2021 19:06:05 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:06:05 UTC] PHP  12. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2582
+[19-Feb-2021 19:06:05 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:06:05 UTC] PHP  13. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:06:05 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:06:05 UTC] PHP  14. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:06:05 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:06:05 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:06:05 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:06:05 UTC] PHP Stack trace:
+[19-Feb-2021 19:06:05 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:06:05 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:06:05 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:06:05 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:06:05 UTC] PHP Stack trace:
+[19-Feb-2021 19:06:05 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:06:05 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:06:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:06:05 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:06:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:06:05 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:06:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:06:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:06:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:06:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:06:05 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:06:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:06:05 UTC] PHP   9. wp_not_installed() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:159
+[19-Feb-2021 19:06:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:06:05 UTC] PHP  10. is_blog_installed() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:709
+[19-Feb-2021 19:06:05 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:06:05 UTC] PHP  11. wpdb->get_var() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\functions.php:1727
+[19-Feb-2021 19:06:05 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:06:05 UTC] PHP  12. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2582
+[19-Feb-2021 19:06:05 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:06:05 UTC] PHP  13. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:06:05 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:06:05 UTC] PHP  14. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:06:05 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:06:05 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:06:05 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:06:05 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:06:05 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:06:05 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:02 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:02 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:02 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:19:02 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:02 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:02 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:02 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:02 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:02 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:02 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:02 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:02 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:02 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:02 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:02 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:02 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:02 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:02 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:02 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:02 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:02 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:02 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:02 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:03 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:03 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:03 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:03 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:03 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:03 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:03 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:03 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:03 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:03 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:03 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:03 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:03 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:03 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:03 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:19:03 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:19:03 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:19:03 UTC] PHP   9. WP_Site_Health::get_instance() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:541
+[19-Feb-2021 19:19:03 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:19:03 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:19:03 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:19:03 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:19:03 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:19:03 UTC] PHP  10. WP_Site_Health->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-admin\includes\class-wp-site-health.php:64
+[19-Feb-2021 19:19:03 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:19:03 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:19:03 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:19:03 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:19:03 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:19:03 UTC] PHP  11. WP_Site_Health->maybe_create_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-admin\includes\class-wp-site-health.php:36
+[19-Feb-2021 19:19:03 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:19:03 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:19:03 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:19:03 UTC] PHP  12. wp_widgets_init() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:19:03 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:19:03 UTC] PHP  12. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-admin\includes\class-wp-site-health.php:2577
+[19-Feb-2021 19:19:03 UTC] PHP  12. create_initial_taxonomies() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:19:03 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:19:03 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:19:03 UTC] PHP  13. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\widgets.php:1795
+[19-Feb-2021 19:19:03 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=22572 in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:19:03 UTC] PHP  13. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:19:03 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:52
+[19-Feb-2021 19:19:03 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:19:03 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:03 UTC] PHP  14. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:19:03 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:03 UTC] PHP  14. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:19:03 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:03 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:03 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:03 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:19:03 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:03 UTC] PHP  15. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:19:03 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:03 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:03 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:03 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:19:03 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:03 UTC] PHP  16. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:03 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:03 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:03 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:04 UTC] PHP  17. WP_Widget_Meta->_register() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget-factory.php:102
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP  17. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:04 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:04 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:04 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:04 UTC] PHP  18. WP_Widget_Meta->get_settings() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget.php:240
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP  18. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:04 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:04 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:04 UTC] PHP  19. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget.php:577
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP  19. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:04 UTC] PHP  20. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:04 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:04 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:04 UTC] PHP  21. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP  22. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:04 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP  23. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:04 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:19:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:19:04 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:04 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:04 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:04 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:04 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:04 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:19:04 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:04 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:04 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:04 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP Stack trace:
+[19-Feb-2021 19:19:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:04 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:19:04 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:19:04 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:19:04 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:04 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:19:04 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:19:04 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:19:04 UTC] PHP   9. WP_Site_Health::get_instance() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:541
+[19-Feb-2021 19:19:04 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:19:04 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:19:04 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:19:04 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:04 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:19:04 UTC] PHP  10. WP_Site_Health->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-admin\includes\class-wp-site-health.php:64
+[19-Feb-2021 19:19:04 UTC] PHP  12. create_initial_taxonomies() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:19:04 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:19:04 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:19:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:04 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:19:04 UTC] PHP  11. WP_Site_Health->maybe_create_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-admin\includes\class-wp-site-health.php:36
+[19-Feb-2021 19:19:04 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:52
+[19-Feb-2021 19:19:04 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:19:04 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:04 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:19:04 UTC] PHP  12. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-admin\includes\class-wp-site-health.php:2577
+[19-Feb-2021 19:19:04 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:04 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:04 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:05 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:19:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:19:05 UTC] PHP  13. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:19:05 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:05 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:05 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:05 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:19:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:19:05 UTC] PHP  14. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:19:05 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:05 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:05 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:05 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:19:05 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:19:05 UTC] PHP  15. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:19:05 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:05 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:05 UTC] PHP  12. wp_widgets_init() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:19:05 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:19:05 UTC] PHP  16. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:05 UTC] PHP  13. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\widgets.php:1795
+[19-Feb-2021 19:19:05 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:19:05 UTC] PHP  17. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:05 UTC] PHP  14. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:19:05 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:19:05 UTC] PHP  18. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:05 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:19:05 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:19:05 UTC] PHP  19. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:19:05 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:19:05 UTC] PHP  17. WP_Widget_Meta->_register() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget-factory.php:102
+[19-Feb-2021 19:19:05 UTC] PHP  18. WP_Widget_Meta->get_settings() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget.php:240
+[19-Feb-2021 19:19:05 UTC] PHP  19. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget.php:577
+[19-Feb-2021 19:19:05 UTC] PHP  20. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:19:05 UTC] PHP  21. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:19:05 UTC] PHP  22. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:19:05 UTC] PHP  23. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:27 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:28 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:28 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:28 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:28 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:28 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:28 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:28 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:28 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:28 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:28 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:28 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:28 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:28 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:28 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:28 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:28 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:28 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:28 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:28 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:28 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:28 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:28 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:28 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:28 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:28 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:28 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:28 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:28 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:28 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:28 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:27:28 UTC] PHP   9. wp_plugin_directory_constants() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:313
+[19-Feb-2021 19:27:28 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:27:28 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:27:28 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:27:28 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:28 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:28 UTC] PHP  10. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\default-constants.php:156
+[19-Feb-2021 19:27:28 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:28 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:27:28 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:28 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:28 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:28 UTC] PHP  11. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:28 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:28 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:27:28 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:28 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=27176 in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:28 UTC] PHP  12. wp_widgets_init() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:28 UTC] PHP  12. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:28 UTC] PHP  12. create_initial_taxonomies() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:28 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:27:28 UTC] PHP  12. create_initial_taxonomies() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:28 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:28 UTC] PHP  13. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\widgets.php:1795
+[19-Feb-2021 19:27:28 UTC] PHP  13. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:28 UTC] PHP  13. register_taxonomy() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:102
+[19-Feb-2021 19:27:28 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:27:29 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:46
+[19-Feb-2021 19:27:29 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:29 UTC] PHP  14. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:29 UTC] PHP  14. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:29 UTC] PHP  14. WP_Taxonomy->add_rewrite_rules() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:437
+[19-Feb-2021 19:27:29 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:29 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:29 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:29 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:29 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:29 UTC] PHP  15. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-taxonomy.php:438
+[19-Feb-2021 19:27:29 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:29 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:29 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:29 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:29 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:29 UTC] PHP  16. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:29 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:29 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:29 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:29 UTC] PHP  17. WP_Widget_Text->_register() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget-factory.php:102
+[19-Feb-2021 19:27:29 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:29 UTC] PHP  17. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:29 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:29 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:29 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:29 UTC] PHP  18. WP_Widget_Text->_register_one() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget.php:261
+[19-Feb-2021 19:27:29 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:29 UTC] PHP  18. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:29 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:29 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:29 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:29 UTC] PHP  19. wp_add_inline_script() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\widgets\class-wp-widget-text.php:58
+[19-Feb-2021 19:27:29 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:29 UTC] PHP  19. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:29 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:29 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:29 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:29 UTC] PHP  20. wp_scripts() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\functions.wp-scripts.php:147
+[19-Feb-2021 19:27:29 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:29 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:29 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:29 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:29 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:29 UTC] PHP  21. WP_Scripts->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\functions.wp-scripts.php:24
+[19-Feb-2021 19:27:29 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:29 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:29 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:29 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:29 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:29 UTC] PHP  22. WP_Scripts->init() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class.wp-scripts.php:142
+[19-Feb-2021 19:27:29 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:29 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:29 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:29 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:29 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:29 UTC] PHP  23. do_action_ref_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class.wp-scripts.php:167
+[19-Feb-2021 19:27:29 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:29 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:29 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:29 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:29 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:29 UTC] PHP  24. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:551
+[19-Feb-2021 19:27:29 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:29 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:29 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:29 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:29 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:29 UTC] PHP  25. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:29 UTC] PHP   9. wp_plugin_directory_constants() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:313
+[19-Feb-2021 19:27:29 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:29 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:29 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:29 UTC] PHP  26. wp_default_scripts() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:29 UTC] PHP  10. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\default-constants.php:156
+[19-Feb-2021 19:27:29 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:29 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:29 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:29 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:29 UTC] PHP  27. apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\script-loader.php:709
+[19-Feb-2021 19:27:29 UTC] PHP  11. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:29 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:29 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:29 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:29 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:29 UTC] PHP  28. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:212
+[19-Feb-2021 19:27:29 UTC] PHP  12. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:29 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:29 UTC] PHP   9. WP_Recovery_Mode->initialize() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:382
+[19-Feb-2021 19:27:29 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:27:29 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:29 UTC] PHP  29. wp_heartbeat_settings() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:29 UTC] PHP  13. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:29 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:29 UTC] PHP  10. wp_next_scheduled() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-recovery-mode.php:98
+[19-Feb-2021 19:27:29 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:29 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:29 UTC] PHP  30. admin_url() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\general-template.php:4862
+[19-Feb-2021 19:27:29 UTC] PHP  14. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:30 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:27:30 UTC] PHP  11. wp_get_scheduled_event() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:627
+[19-Feb-2021 19:27:30 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:30 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:30 UTC] PHP  31. get_admin_url() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\link-template.php:3315
+[19-Feb-2021 19:27:30 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:30 UTC] PHP  12. _get_cron_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:576
+[19-Feb-2021 19:27:30 UTC] PHP  12. create_initial_taxonomies() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:30 UTC] PHP  32. get_site_url() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\link-template.php:3331
+[19-Feb-2021 19:27:30 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:30 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\cron.php:953
+[19-Feb-2021 19:27:30 UTC] PHP  13. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:46
+[19-Feb-2021 19:27:30 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:30 UTC] PHP  33. apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\link-template.php:3301
+[19-Feb-2021 19:27:30 UTC] PHP  12. create_initial_taxonomies() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:30 UTC] PHP  14. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:30 UTC] PHP  34. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:212
+[19-Feb-2021 19:27:30 UTC] PHP  13. register_taxonomy() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:102
+[19-Feb-2021 19:27:30 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:30 UTC] PHP  15. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:30 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:30 UTC] PHP  35. WP_CLI\Runner::WP_CLI\{closure:phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1545-1557}() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  14. WP_Taxonomy->add_rewrite_rules() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\taxonomy.php:437
+[19-Feb-2021 19:27:30 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:30 UTC] PHP  16. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:30 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:30 UTC] PHP  36. get_option() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1547
+[19-Feb-2021 19:27:30 UTC] PHP  15. get_option() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-taxonomy.php:438
+[19-Feb-2021 19:27:30 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:30 UTC] PHP  17. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:30 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:30 UTC] PHP  37. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:30 UTC] PHP  16. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:30 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:30 UTC] PHP  38. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:30 UTC] PHP  17. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:30 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:30 UTC] PHP  39. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:30 UTC] PHP  18. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:30 UTC] PHP  40. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:30 UTC] PHP  19. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:30 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 2056
+[19-Feb-2021 19:27:30 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:30 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:30 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:30 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:30 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:30 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:30 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:30 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:30 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:30 UTC] PHP   9. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:557
+[19-Feb-2021 19:27:30 UTC] PHP  10. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:30 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:30 UTC] PHP  12. wp_widgets_init() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  13. do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\widgets.php:1795
+[19-Feb-2021 19:27:30 UTC] PHP  14. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:484
+[19-Feb-2021 19:27:30 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:30 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  17. WP_Widget_Text->_register() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget-factory.php:102
+[19-Feb-2021 19:27:30 UTC] PHP  18. WP_Widget_Text->_register_one() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-widget.php:261
+[19-Feb-2021 19:27:30 UTC] PHP  19. wp_add_inline_script() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\widgets\class-wp-widget-text.php:58
+[19-Feb-2021 19:27:30 UTC] PHP  20. wp_scripts() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\functions.wp-scripts.php:147
+[19-Feb-2021 19:27:30 UTC] PHP  21. WP_Scripts->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\functions.wp-scripts.php:24
+[19-Feb-2021 19:27:30 UTC] PHP  22. WP_Scripts->init() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class.wp-scripts.php:142
+[19-Feb-2021 19:27:30 UTC] PHP  23. do_action_ref_array() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class.wp-scripts.php:167
+[19-Feb-2021 19:27:30 UTC] PHP  24. WP_Hook->do_action() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:551
+[19-Feb-2021 19:27:30 UTC] PHP  25. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:311
+[19-Feb-2021 19:27:30 UTC] PHP  26. wp_default_scripts() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  27. apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\script-loader.php:709
+[19-Feb-2021 19:27:30 UTC] PHP  28. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:212
+[19-Feb-2021 19:27:30 UTC] PHP  29. wp_heartbeat_settings() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  30. admin_url() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\general-template.php:4862
+[19-Feb-2021 19:27:30 UTC] PHP  31. get_admin_url() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\link-template.php:3315
+[19-Feb-2021 19:27:30 UTC] PHP  32. get_site_url() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\link-template.php:3331
+[19-Feb-2021 19:27:30 UTC] PHP  33. apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\link-template.php:3301
+[19-Feb-2021 19:27:30 UTC] PHP  34. WP_Hook->apply_filters() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\plugin.php:212
+[19-Feb-2021 19:27:30 UTC] PHP  35. WP_CLI\Runner::WP_CLI\{closure:phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1545-1557}() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\class-wp-hook.php:287
+[19-Feb-2021 19:27:30 UTC] PHP  36. get_option() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1547
+[19-Feb-2021 19:27:30 UTC] PHP  37. wpdb->get_row() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\option.php:146
+[19-Feb-2021 19:27:30 UTC] PHP  38. wpdb->query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2616
+[19-Feb-2021 19:27:30 UTC] PHP  39. wpdb->_do_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1945
+[19-Feb-2021 19:27:30 UTC] PHP  40. mysqli_query() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:2056
+[19-Feb-2021 19:27:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:55 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:55 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:55 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:55 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:55 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:55 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:55 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:55 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:55 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:55 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:55 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:55 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:55 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:55 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:55 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:55 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:55 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:55 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:55 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:55 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:55 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:55 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:55 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:55 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:55 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:55 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:55 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:55 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:55 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:55 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:55 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:55 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:55 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:55 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:55 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:55 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:55 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:55 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:55 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php on line 1656
+[19-Feb-2021 19:27:56 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:56 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:56 UTC] PHP Stack trace:
+[19-Feb-2021 19:27:56 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:56 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:56 UTC] PHP   1. {main}() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[19-Feb-2021 19:27:56 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:56 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:56 UTC] PHP   2. include() C:\Users\cbeut\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[19-Feb-2021 19:27:56 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:56 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:56 UTC] PHP   3. include() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Feb-2021 19:27:56 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:56 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:56 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Feb-2021 19:27:56 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:56 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:56 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[19-Feb-2021 19:27:56 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:56 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:56 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Feb-2021 19:27:56 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:56 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:56 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[19-Feb-2021 19:27:56 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:56 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:56 UTC] PHP   8. require() phar://C:/Users/cbeut/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[19-Feb-2021 19:27:56 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:56 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:56 UTC] PHP   9. require_wp_db() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-settings.php:124
+[19-Feb-2021 19:27:56 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:56 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:56 UTC] PHP  10. wpdb->__construct() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\load.php:527
+[19-Feb-2021 19:27:56 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:56 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:56 UTC] PHP  11. wpdb->db_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:632
+[19-Feb-2021 19:27:56 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:56 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
+[19-Feb-2021 19:27:56 UTC] PHP  12. mysqli_real_connect() C:\Users\cbeut\Local Sites\dev203297755com\app\public\wp-includes\wp-db.php:1656
